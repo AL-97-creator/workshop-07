@@ -29,9 +29,9 @@ Appliance::Appliance(int powerRating, bool isOn) {
     int Appliance::get_powerRating(){
         return powerRating;
     }
-    void Appliance::get_isOn(bool isOn){
-        this->isOn=isOn;
-    }
-    bool Appliance::set_isOn(){
+    bool Appliance::get_isOn(){
         return isOn;
+    }
+    void Appliance::set_isOn(bool isOn){
+        this->isOn=isOn;
     }
