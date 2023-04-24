@@ -16,6 +16,9 @@ void turnOn();
 void turnOff();
 virtual double getPowerConsumption();
 void set_PowerRating(int pR);
-int get_PowerRating();};
+int get_PowerRating();
+void get_isOn(bool isOn);
+bool set_isOn();};
+
 
 #endif
