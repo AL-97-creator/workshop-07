@@ -12,21 +12,20 @@ Appliance::Appliance(int powerRating, bool isOn) {
     isOn=false;
 }
 
-
     void Appliance::turnOff(){
-        1+1;
+        isOn=false;
     }
 
     void Appliance::turnOn(){
-        1+1;
+        isOn=true;
     }
 
     double Appliance::getPowerConsumption(){
         return 0;
     }
-    void Appliance::setPowerRating(int pR){
+    void Appliance::set_PowerRating(int pR){
         powerRating=pR;
     }
-    int Appliance::getPowerRating(){
+    int Appliance::get_PowerRating(){
         return powerRating;
     }

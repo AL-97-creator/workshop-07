@@ -15,7 +15,7 @@ Appliance(int powerRating, bool isOn);
 void turnOn();
 void turnOff();
 virtual double getPowerConsumption();
-void setPowerRating(int pR);
-int getPowerRating();};
+void set_PowerRating(int pR);
+int get_PowerRating();};
 
 #endif
