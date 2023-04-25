@@ -1,5 +1,5 @@
-#ifndef FRI_H
-#define FRI_H
+#ifndef TV_H
+#define TV_H
 #include "iostream"
 #include <ctime>
 #include "Appliance.h"
