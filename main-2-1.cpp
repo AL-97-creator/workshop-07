@@ -4,7 +4,7 @@
 
 int main(){
     Fridge a;
-    a.set_volume(3);
+    a.setVolume(3);
     a.set_powerRating(5);
     a.print();
 }

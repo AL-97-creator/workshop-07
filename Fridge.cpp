@@ -14,17 +14,17 @@ Fridge::Fridge(int powerRating, double volume) {
     this->volume=volume;
 }
 
-    void Fridge::set_volume(double volume){
+    void Fridge::setVolume(double volume){
         this-> volume=volume;
     }
-    double Fridge::get_volume(){
+    double Fridge::getVolume(){
         return volume;
     }
      double Fridge::getPowerConsumption(){
-        double pC= (get_powerRating())*24*((get_volume())/100);
+        double pC= (get_powerRating())*24*((getVolume())/100);
         return pC;
     }
        void Fridge::print(){
-        std::cout<< "volume = " << Fridge::get_volume() << std::endl;
+        std::cout<< "volume = " << Fridge::getVolume() << std::endl;
         std::cout<< "powerConsumption = " << Fridge::getPowerConsumption() << std::endl;
     };
