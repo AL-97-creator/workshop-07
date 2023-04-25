@@ -7,7 +7,7 @@ Appliance::Appliance(){
     powerRating=0;
     isOn=false;
 }
-Appliance::Appliance(int powerRating, bool isOn) {
+Appliance::Appliance(int powerRating) {
     this->powerRating=powerRating;
     isOn=false;
 }
@@ -35,3 +35,7 @@ Appliance::Appliance(int powerRating, bool isOn) {
     void Appliance::set_isOn(bool isOn){
         this->isOn=isOn;
     }
+    void Appliance::print(){
+        std::cout<< "isOn = " << Appliance::get_isOn() << std::endl;
+        std::cout<< "powerRating = " << Appliance::get_powerRating() << std::endl;
+    };
